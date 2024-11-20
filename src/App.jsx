@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <main className='container mx-auto lg:flex md:flex-row sm:flex-row max-sm:flex-row'>
+      <main className='container mx-auto gap-6 lg:flex md:flex-row sm:flex-row max-sm:flex-row md:px-12 sm:px-8 max-sm:px-4'>
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
       </main>
